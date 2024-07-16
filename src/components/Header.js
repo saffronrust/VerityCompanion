@@ -19,12 +19,12 @@ export default function Header() {
             </Typography>
           <Button color='inherit'>
             <Link href="/" color="inherit" underline="none">
-              Solver
+              Outside
             </Link>
           </Button>
           <Button color='inherit'>
-            <Link href="/cosmetics" color="inherit" underline="none">
-              Cosmetics
+            <Link href="/inside" color="inherit" underline="none">
+              Inside
             </Link>
           </Button>
           <Button color='inherit'>

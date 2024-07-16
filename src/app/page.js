@@ -128,7 +128,7 @@ export default function Home() {
             }
           }
         >
-          Verity Solver
+          Outside Solver
         </Typography>
         <Card 
           sx={
