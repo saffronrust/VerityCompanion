@@ -57,7 +57,10 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
-        <Typography variant="h3" component="h1" sx={{ my: 5 }}>
+        <Typography
+          variant="h3" 
+          component="h1" 
+          sx={{ mt: 5, mb: 1 }}>
           Verity Solver
         </Typography>
 
@@ -65,13 +68,13 @@ export default function Home() {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          gap: '0.5rem',
+          gap: '0.1rem',
           alignItems: 'center',
           minWidth: '350px',
         }}
         >
           {/* this is for inside shape input */}
-          <Typography variant="h5" component="h1" sx={{ my: 2 }}>
+          <Typography variant="h5" component="h1" sx={{ my: 1 }}>
             Input Inside Shapes
           </Typography>
           <Box display="flex" gap="0.5rem">
@@ -92,8 +95,8 @@ export default function Home() {
                   <Image
                     src={Circle}
                     alt="Circle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside1 === "c" ? 'invert(0)' : 'invert(0.3)',
@@ -118,8 +121,8 @@ export default function Home() {
                   <Image
                     src={Triangle}
                     alt="Triangle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside1 === "t" ? 'invert(0)' : 'invert(0.3)',
@@ -144,8 +147,8 @@ export default function Home() {
                   <Image
                     src={Square}
                     alt="Square"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside1 === "s" ? 'invert(0)' : 'invert(0.3)',
@@ -173,8 +176,8 @@ export default function Home() {
                   <Image
                     src={Circle}
                     alt="Circle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside2 === "c" ? 'invert(0)' : 'invert(0.3)',
@@ -199,8 +202,8 @@ export default function Home() {
                   <Image
                     src={Triangle}
                     alt="Triangle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside2 === "t" ? 'invert(0)' : 'invert(0.3)',
@@ -225,8 +228,8 @@ export default function Home() {
                   <Image
                     src={Square}
                     alt="Square"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside2 === "s" ? 'invert(0)' : 'invert(0.3)',
@@ -254,8 +257,8 @@ export default function Home() {
                   <Image
                     src={Circle}
                     alt="Circle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside3 === "c" ? 'invert(0)' : 'invert(0.3)',
@@ -280,8 +283,8 @@ export default function Home() {
                   <Image
                     src={Triangle}
                     alt="Triangle"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside3 === "t" ? 'invert(0)' : 'invert(0.3)',
@@ -306,8 +309,8 @@ export default function Home() {
                   <Image
                     src={Square}
                     alt="Square"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Inside3 === "s" ? 'invert(0)' : 'invert(0.3)',
@@ -320,7 +323,7 @@ export default function Home() {
             </Box>
           </Box>
 
-          <Typography variant="h5" component="h1" sx={{ my: 2 }}>
+          <Typography variant="h5" component="h1" sx={{ my: 1 }}>
             Input Outside Shapes
           </Typography>
 
@@ -342,8 +345,8 @@ export default function Home() {
                   <Image
                     src={Sphere}
                     alt="Sphere"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "sp" ? 'invert(0)' : 'invert(0.3)',
@@ -368,8 +371,8 @@ export default function Home() {
                   <Image
                     src={Cube}
                     alt="Cube"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "cu" ? 'invert(0)' : 'invert(0.3)',
@@ -394,8 +397,8 @@ export default function Home() {
                   <Image
                     src={Tetrahedron}
                     alt="Tetrahedron"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "py" ? 'invert(0)' : 'invert(0.3)',
@@ -420,8 +423,8 @@ export default function Home() {
                   <Image
                     src={Cylinder}
                     alt="Cylinder"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "cy" ? 'invert(0)' : 'invert(0.3)',
@@ -446,8 +449,8 @@ export default function Home() {
                   <Image
                     src={Cone}
                     alt="Cone"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "co" ? 'invert(0)' : 'invert(0.3)',
@@ -472,8 +475,8 @@ export default function Home() {
                   <Image
                     src={TriangularPrism}
                     alt="TriangularPrism"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside1 === "pr" ? 'invert(0)' : 'invert(0.3)',
@@ -501,8 +504,8 @@ export default function Home() {
                   <Image
                     src={Sphere}
                     alt="Sphere"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "sp" ? 'invert(0)' : 'invert(0.3)',
@@ -527,8 +530,8 @@ export default function Home() {
                   <Image
                     src={Cube}
                     alt="Cube"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "cu" ? 'invert(0)' : 'invert(0.3)',
@@ -553,8 +556,8 @@ export default function Home() {
                   <Image
                     src={Tetrahedron}
                     alt="Tetrahedron"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "py" ? 'invert(0)' : 'invert(0.3)',
@@ -579,8 +582,8 @@ export default function Home() {
                   <Image
                     src={Cylinder}
                     alt="Cylinder"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "cy" ? 'invert(0)' : 'invert(0.3)',
@@ -605,8 +608,8 @@ export default function Home() {
                   <Image
                     src={Cone}
                     alt="Cone"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "co" ? 'invert(0)' : 'invert(0.3)',
@@ -631,8 +634,8 @@ export default function Home() {
                   <Image
                     src={TriangularPrism}
                     alt="TriangularPrism"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside2 === "pr" ? 'invert(0)' : 'invert(0.3)',
@@ -660,8 +663,8 @@ export default function Home() {
                   <Image
                     src={Sphere}
                     alt="Sphere"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "sp" ? 'invert(0)' : 'invert(0.3)',
@@ -686,8 +689,8 @@ export default function Home() {
                   <Image
                     src={Cube}
                     alt="Cube"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "cu" ? 'invert(0)' : 'invert(0.3)',
@@ -712,8 +715,8 @@ export default function Home() {
                   <Image
                     src={Tetrahedron}
                     alt="Tetrahedron"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "py" ? 'invert(0)' : 'invert(0.3)',
@@ -738,8 +741,8 @@ export default function Home() {
                   <Image
                     src={Cylinder}
                     alt="Cylinder"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "cy" ? 'invert(0)' : 'invert(0.3)',
@@ -764,8 +767,8 @@ export default function Home() {
                   <Image
                     src={Cone}
                     alt="Cone"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "co" ? 'invert(0)' : 'invert(0.3)',
@@ -790,8 +793,8 @@ export default function Home() {
                   <Image
                     src={TriangularPrism}
                     alt="TriangularPrism"
-                    width={50}
-                    height={50}
+                    width={20}
+                    height={20}
                     style={
                       {
                         filter: Outside3 === "pr" ? 'invert(0)' : 'invert(0.3)',
@@ -805,10 +808,10 @@ export default function Home() {
           </Box>
 
 
-        <Typography variant="h5" component="h1" sx={{ my: 2 }}>
+        <Typography variant="h5" sx={{ my: 1 }}>
           Swap Order
         </Typography>
-        <Typography variant="h5" component="h1" sx={{ my: 2 }}>
+        <Typography variant="h5">
           {calculateResult(Inside1, Inside2, Inside3, Outside1, Outside2, Outside3).map((instruction, index) => {
             return (
               <div key={index}>
@@ -870,8 +873,8 @@ function generateSuccessors(state) {
     const swaps = [
         ["c", "t"], ["c", "s"], ["t", "c"], ["s", "c"], ["s", "t"], ["t", "s"]
     ];
-    const positions = ["LEFT", "MID", "RIGHT"];
-    const shapes = { s: "SQUARE", c: "CIRCLE", t: "TRIANGLE" };
+    const positions = ["Left", "Mid", "Right"];
+    const shapes = { s: "Square", c: "Circle", t: "Triangle" };
 
     let successors = [];
     let descriptions = [];
@@ -990,5 +993,4 @@ function calculateResult(Inside1, Inside2, Inside3, Outside1, Outside2, Outside3
     let result = createOrder(innerShapes, outerShapes);
     console.log("RESULT IS:", result);
     return result;
-    console.log("====================");
 }
