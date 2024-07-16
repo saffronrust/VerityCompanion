@@ -2,7 +2,6 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import MuiLink from '@mui/material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Toolbar from '@mui/material/Toolbar';
 
 export default function Footer() {
   return (
