@@ -4,7 +4,7 @@ A guide for the 4th raid encounter of Salvation's Edge in Destiny 2. It contains
 ![Background](https://github.com/saffronrust/VerityCompanion/blob/main/src/images/background.jpg)
 
 ## Deployed App
-You can visit the deployed app at https://verity-companion.vercel.app/
+The app was deployed using Vercel. You can visit the deployed app at https://www.d2veritycompanion.com/
 
 ## Tech Stack
 <div>
@@ -13,6 +13,7 @@ You can visit the deployed app at https://verity-companion.vercel.app/
 <img src = "http://img.shields.io/badge/nodejs-339933?style=flat-square&logo=nodedotjs&logoColor=black" alt = "nodejs">
 <img src="http://img.shields.io/badge/Javascript-fcd400?style=flat-square&logo=javascript&logoColor=black" alt="Javascript">
 <img src = "http://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=black" alt = "npm">
+<img src = "http://img.shields.io/badge/Vercel-FFFFFF?style=flat-square&logo=vercel&logoColor=black" alt = "vercel">
 </div>
 
 ## Functions
