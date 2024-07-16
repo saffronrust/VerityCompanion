@@ -3,6 +3,9 @@ A guide for the 4th raid encounter of Salvation's Edge in Destiny 2. It contains
 
 ![Background](https://github.com/saffronrust/VerityCompanion/blob/main/src/images/background.jpg)
 
+## Deployed App
+You can visit the deployed app at https://verity-companion.vercel.app/
+
 ## Tech Stack
 <div>
 <img src = "http://img.shields.io/badge/Material UI-007FFF?style=flat-square&logo=mui&logoColor=black" alt = "mui">
