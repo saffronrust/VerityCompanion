@@ -16,6 +16,7 @@ A guide for the 4th raid encounter of Salvation's Edge in Destiny 2. It contains
 - Outside Solver enables users to plug in the inside shapes and outside shapes, and immediately read off the required dissections needed to complete the outside room.
 - Inside Guide provides a step-by-step guide for the inside rooms, given the user's own shape.
 - Tutorial contains tips and tricks for the encounter itself.
+- The app is optimised for mobile devices. Users can navigate the app with their phones easily while playing on their PCs or consoles.
 
 ## Motivation
 Verity is the most unique and mechanically challenging raid encounter in Destiny's history. However, the encounter can be much simpler than what it looks like, and this companion app can greatly aid players in completing the encounter!
