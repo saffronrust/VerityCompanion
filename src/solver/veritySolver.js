@@ -1,5 +1,3 @@
-let is3Dduplicate = false;
-
 function validFirstInput(input) {
     let trimmedInput = input.map(e => e.trim().slice(0, 1));
     if (trimmedInput.length !== 2 && trimmedInput.length !== 3) {
@@ -115,10 +113,10 @@ function createOrder(innerShapes, outerShapes) {
         sp: ["c", "c"], cy: ["c", "s"], co: ["c", "t"], cu: ["s", "s"],
         pr: ["s", "t"], py: ["t", "t"]
     };
-    let targetShapes = outerShapes.map(symbol => shapeMap[symbol]);
-    if (targetShapes.length === 2) {
+    let initialShapes = outerShapes.map(symbol => shapeMap[symbol]);
+    if (initialShapes.length === 2) {
         let shapeCounts = { c: 0, s: 0, t: 0 };
-        targetShapes.forEach(pair => {
+        initialShapes.forEach(pair => {
             let pairString = Array.isArray(pair) ? pair.join("") : pair;
             ["c", "s", "t"].forEach(shape => {
                 shapeCounts[shape] += (pairString.match(new RegExp(shape, "g")) || []).length;
@@ -130,10 +128,10 @@ function createOrder(innerShapes, outerShapes) {
                 missingShapes.push(shape);
             }
         });
-        targetShapes.push(missingShapes);
+        initialShapes.push(missingShapes);
     }
 
-    let initialShapes = innerShapes.map(shape => {
+    let targetShapes = innerShapes.map(shape => {
         switch (shape) {
             case "c": return ["s", "t"];
             case "s": return ["c", "t"];
@@ -142,7 +140,7 @@ function createOrder(innerShapes, outerShapes) {
         }
     });
 
-    let swaps = generateSwaps(targetShapes, initialShapes);
+    let swaps = generateSwaps(initialShapes, targetShapes);
     console.log("SWAPS ARE:", swaps);
 }
 
