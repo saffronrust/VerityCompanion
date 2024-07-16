@@ -28,7 +28,7 @@ export default function Header() {
             </Link>
           </Button>
           <Button color='inherit'>
-            <Link href="/about" color="inherit" underline="none">
+            <Link href="/tutorial" color="inherit" underline="none">
               Tutorial
             </Link>
           </Button>

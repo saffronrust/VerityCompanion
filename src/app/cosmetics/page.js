@@ -1,7 +1,28 @@
+import * as React from 'react';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 export default function Cosmetics() {
   return (
-    <div>
-      <h1>Cosmetics</h1>
-    </div>
+    <Container maxWidth="xl">
+        <Header />
+        <Box
+          sx={{
+            my: 4,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+        <Typography variant="h4" component="h1" sx={{ mt: 5 }}>
+            Team Cosmetics
+        </Typography>
+        </Box>
+        <Footer />
+    </Container>
   );
 }
