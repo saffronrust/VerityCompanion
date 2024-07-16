@@ -1,5 +1,3 @@
-// file path: /mnt/data/page.js
-
 'use client';
 
 import * as React from 'react';
